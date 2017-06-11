@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+<link href="/normalize.css" rel="stylesheet">
+<style>
+  header {
+    background: url("http://fpstaff.net/wp-content/uploads/2013/01/texas.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  img {
+    margin: 40px 0px 0px 0px;
+    border: 6px solid black;
+    border-radius: 20px;
+
+  }
+  li {
+    padding: 0px 10px 0px 10px;
+    display: inline;
+
+  }
+
+  ul {
+    padding: 10px;
+    background: rgba(0,0,100,0.5);
+  }
+  a {
+    color: white;
+  }
+  article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+
+  h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  button {
+    display: inline;
+    background-color: rgba(20,20,0,0);
+    border-radius: 5px;
+  }
+
+  body {
+    font-family: Verdana;
+  }
+
+  h1 {
+    font-size: 30
+  }
+</style>
+</head>
+
+<body>
+<header>
+  <img src="http://i.imgur.com/NGkIY0h.jpg" width=150>
+  <h1>Kristen's Portfolio</h1>
+  <ul>
+    <li><a href="https://dash.generalassemb.ly/smithkltx/build-your-own-personal-website">About Me</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Portfolio</a></li>
+  </ul>
+</header>
+<article>
+<h2>My Portfolio</h2>
+<p>On this site, you can find sample web pages I have created! Please feel free to contact me if you are in need of a web developer!</p>
+<button>Like</button>
+</article>
+<script>
+    $("button").on("click", function() {
+      alert("Like!");
+    });
+  </script>
+</body>
+
+http://dash.ga.co/smithkltx/build-your-own-blog-theme
